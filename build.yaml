@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      functional_widget:
+        options:
+          # Default values:
+          debugFillProperties: false
+          widgetType: hook # 'stateless' or 'hook'
+          equality: none # 'none' or 'identical'/'equal'
